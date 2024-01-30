@@ -46,6 +46,7 @@ class RaggedUtilsBuilder(SYCLOpBuilder):
         include_dirs = [
             sycl_kernel_include('deepspeed/inference/v2/ragged/includes'),
             sycl_kernel_include('deepspeed/inference/v2/kernels/includes'),
+            sycl_kernel_include('csrc/includes'),
         ]
 
         return include_dirs

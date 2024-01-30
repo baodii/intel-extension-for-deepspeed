@@ -71,6 +71,7 @@ class RaggedOpsBuilder(SYCLOpBuilder):
             sycl_kernel_include('deepspeed/inference/v2/kernels/ragged_ops/moe_scatter'),
             sycl_kernel_include('deepspeed/inference/v2/kernels/ragged_ops/ragged_helpers'),
             sycl_kernel_include('deepspeed/inference/v2/kernels/ragged_ops/top_k_gating'),
+            sycl_kernel_include('csrc/includes'),
         ]
 
         return sources

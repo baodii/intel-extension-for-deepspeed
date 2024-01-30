@@ -73,6 +73,6 @@ struct Flash_fwd_params : public Qkv_params {
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 inline void run_mha_fwd(Flash_fwd_params& params, dpct::queue_ptr stream) {
-  printf("warnning: not impletment block_flash_attn\n");
+  printf("warning: not impletment block_flash_attn\n");
   return;
 }

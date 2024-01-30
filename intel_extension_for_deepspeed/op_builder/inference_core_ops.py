@@ -57,6 +57,7 @@ class InferenceCoreBuilder(SYCLOpBuilder):
             sycl_kernel_include('deepspeed/inference/v2/kernels/core_ops/cuda_rms_norm'),
             sycl_kernel_include('deepspeed/inference/v2/kernels/core_ops/gated_activations'),
             sycl_kernel_include('deepspeed/inference/v2/kernels/includes'),
+            sycl_kernel_include('csrc/includes'),
         ]
 
         return sources
